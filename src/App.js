@@ -3,7 +3,6 @@ import YouTube from "react-youtube";
 import "./App.css";
 import LazyImage from "./LazyImage";
 
-
 const shuffleArray = array => {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -102,8 +101,9 @@ class App extends Component{
 
                             <div>コンテンツ提供: <a target="_blank" rel="noopener noreferrer" href="https://www.themoviedb.org/">TMDb</a> このサービスではTMDB APIを使用していますが、TMDbと当サービスは無関係です。</div>
                             <div className="Tmdblogo">
-                                <LazyImage src="./tmdb.svg" alt="TMDb logo" />
+                                <LazyImage src="./images/tmdb.svg" alt="TMDb logo" />
                             </div>
+                            <div id="Copyrights">© 2021 Reo Hokazono.</div>
                         </div>
                     </li>
                 </ul>
