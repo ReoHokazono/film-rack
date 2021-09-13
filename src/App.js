@@ -67,7 +67,7 @@ class App extends Component{
                             <h2>ポスターを見て、<div>ピンとくる映画をさがそう!</div></h2>
                             <div className="SwipeGuide">&lt;--- スワイプして映画をさがす  &lt;---</div>
                             <div>配信サービス向けのコンテンツも開発予定です。</div>
-                            <div>お問い合わせ: <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/hkzn_fy">Twitter @hkzn_fy</a></div>
+                            {/* <div>お問い合わせ: <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/hkzn_fy">Twitter @hkzn_fy</a></div> */}
                         </div>
                     </li>
                     {items.map(item => (
